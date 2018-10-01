@@ -1,0 +1,145 @@
+a {
+  color: firebrick;
+}
+.navigation {
+  text-align: center;
+}
+
+.text-nav {
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #f8bc24;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.navbar-style {
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bg-header {
+}
+.header-style {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  line-height: 1.2em;
+  color: #dc6435;
+  margin-top: 1.2em;
+  display: block;
+}
+
+.text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  color: rgb(82, 76, 70);
+}
+
+.grid-two-column {
+  padding-top: 1.5em;
+}
+
+.style {
+  border-style: solid;
+  border-color: #f8bc24;
+  border-width: 2px 0 0 0;
+}
+
+.fas.navi {
+  font-weight: 800;
+  padding: 0 0.8em;
+}
+
+a:hover {
+  color: darkcyan;
+  text-decoration: underline;
+}
+
+.subline-style {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(82, 76, 70);
+  margin-right: 3em;
+}
+
+.image-logo {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.col .col-10 {
+  padding-left: 0;
+}
+
+.row {
+  margin: 0;
+}
+.jumbotron {
+  background-color: #f8bc24;
+}
+.button-style {
+  background-color: #dc6435;
+  font-family: "Oswald";
+  font-size: 18px;
+  border: 0;
+  padding: 0.6em 2em;
+  letter-spacing: 0.2em;
+}
+
+.btn-primary:hover {
+  background-color: darkcyan;
+}
+.bg-seitenbreit {
+  background-color: #f8bc24;
+}
+ul.list-group-flush {
+  padding: 0;
+}
+.list-group-item.angebot {
+  padding: 0.7em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.message-style {
+  height: 120px;
+}
+
+@media (max-width: 576px) {
+  .header-style {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .px-5 {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .subline-style {
+    font-size: 17px;
+    margin-right: 1em;
+  }
+}
+@media (max-width: 576px) {
+  .text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    color: rgb(82, 76, 70);
+  }
+}
+@media (max-width: 576px) {
+  .image-logo {
+    max-height: 120px;
+  }
+}
