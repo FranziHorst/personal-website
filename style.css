@@ -22,6 +22,8 @@ a {
   flex-wrap: wrap;
 }
 
+.bg-header {
+}
 .header-style {
   font-family: "Oswald", sans-serif;
   font-size: 50px;
